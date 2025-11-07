@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <!-- Grenze Gotisch-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=New+Rocker&display=swap" rel="stylesheet">
+    <!-- New Rocker-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <!-- Pirata One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav role="navigation">
+        <div id="menuToggle">
+            
+            <input type="checkbox" id="menuCheckbox" />
+            
+            <span><u>Navigation</u></span>
+            
+            <ul id="menu">
+                <li>
+                    <a href="#">
+                    <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="#reviews">
+                    <label for="menuCheckbox" onclick="this.parentNode.click();">Reviews</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="#history">
+                    <label for="menuCheckbox" onclick="this.parentNode.click();">History</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="#menu-items">
+                    <label for="menuCheckbox" onclick="this.parentNode.click();">Menu</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                    <label for="menuCheckbox" onclick="this.parentNode.click();">Contact Info</label>
+                    </a>
+                </li>
+                
+                <!-- Closes the navigation -->
+                <li><label for="menuCheckbox"><a>Close</a></label></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Top grid -->
+    <div class="grid1">
+        <!-- Header -->
+        <div class="container">
+            <div class="new-rocker-font"><h1>The Pizza Place</h1></div>
+            <div class="pirata-one-font redFont"><h3>Home Of Flaming Hot Pizza</h3></div>
+            <img class="img" src="images\pizza_dragon.png">
+        </div>
+        <!-- Mid section -->
+        <!-- Box1 -->
+        <div class="container">
+            <div id="reviews" ><p><br></p></div>
+            <div class="new-rocker-font"><h2>Reviews</h2></div>
+            <div class="yellowBox">
+                <div class="grenze-gotisch-font redFont">
+                    <p>Hear ye, hear ye! This wondrous flatbread doth amaze mine senses! The crust, crisp as a knight’s shield fresh from battle; the cheese, molten and rich like the gold of distant realms; and the sauce — by Saint George, a tangy elixir fit for kings! I would trade a whole cart of turnips for but one more slice of this heavenly pie. Verily, ‘tis food most noble!</p>
+                    <p>By the beard of Merlin, what sorcery is this? A round loaf, adorned with red fruit and melted curds! The scent alone could wake a sleeping dragon. I bit into it, and lo — my spirit soared! The crust crackled like a roaring hearth, the cheese did stretch as though spun by angels, and the meats — tender as a knight’s oath. Truly, this ‘peet-za’ is a miracle of the modern age. I shall tell the bard to sing of it in the tavern tonight!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Box2 -->
+        <div class="container">
+            <img class="img1" src="images\black_castle.png">
+        </div>
+        <!-- Box3 -->
+        <div class="container">
+            <div id="history" ><p><br></p></div>
+            <div class="new-rocker-font"><h2>The Pizza Place History</h2></div>
+            <div class="yellowBox">
+                <div class="grenze-gotisch-font redFont">
+                    <p>Nestled in the heart of Kenosha, Wisconsin, The Pizza Place has been a beloved local institution since 1965. With its retro charm and warm, welcoming atmosphere, it’s more than just a restaurant—it’s a community gathering spot where generations have come together over slices of handcrafted pizza and hearty sandwiches. The Pizza Place’s enduring popularity is rooted in its commitment to quality ingredients, time-tested recipes, and a menu that balances tradition with a touch of modern flair.</p>
+                    <p>Specializing in pizza, sandwiches, salads, and cocktails, The Pizza Place offers something for everyone. Whether you're craving a classic pepperoni pie, a fresh Chef salad, or a signature cocktail to wind down the evening, the menu is designed to satisfy. The kitchen prides itself on using locally sourced produce and meats whenever possible, and the bar features a curated selection of Wisconsin craft spirits and brews. It’s the kind of place where the food is as memorable as the company you keep.</p>
+                    <p>Beyond its menu, The Pizza Place is deeply woven into the fabric of Kenosha’s community. From hosting local art nights and trivia events to supporting neighborhood initiatives, the restaurant has always been more than a business—it’s a legacy. Patrons often share stories of their first dates, family dinners, and celebrations held within its cozy walls. With over six decades of history, The Pizza Place continues to serve up not just great food, but a sense of belonging that’s hard to find anywhere else.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu section -->
+     <!-- Menu Header -->
+    <div id="menu-items"><p><br></p></div>
+    <div class="new-rocker-font"><h2>The Pizza Place Menu</h2></div>
+    <div class="grid2">
+        <!-- Piiza -->
+        <div class="container2">
+            <div class="new-rocker-font redFont">
+                <h3>Pizza</h3>
+                <h4>Every Great Pizza Starts with Our Thin Crisp Crust, House made for over 50 years!</h4>
+            </div>
+            <div class="inner-grid">
+                <div class="inner-container div1 grenze-gotisch-font">
+                    <h5>Tostada Pizza</h5>
+                    <p class="p2">
+                        Award Winning Tostada Beef layered over House made Pizza Sauce and Baked with Wisconsin White Colby Cheese, Topped with Freshly Shredded Lettuce, Tomatoes, Wisconsin Cheddar Cheese and House-made Tostada Hot Sauce.
+                        <br>$12/$14/$17
+                    </p>
+                    <h5>B.L.T. Pizza</h5>
+                    <p class="p2">
+                        A Generous amount of Smoked Bacon layered over Salad Dressing, Baked with Wisconsin White Colby Cheese. Topped with Freshly Shredded Lettuce and Tomatoes.
+                        <br>$12/$15/$18
+                    </p>
+                    <h5>Vegetarian Pizza</h5>
+                    <p class="p2">
+                        Tomatoes, Zucchini, Carrots, Onions, Broccoli, Wisconsin Cheddar & White Colby Cheeses, and Garlic Olive Oil layered over House-made Pizza Sauce
+                        <br>$12/$14/$17
+                    </p>
+                    <h5>Greek</h5>
+                    <p class="p2">
+                        Fresh Spinach, Tomatoes, Black & Green Olives, Feta Cheese, Oregano and Garlic Basil Olive Oil layered over Wisconsin White Colby Cheese.
+                        <br>$12/$15/$19
+                    </p>
+                    <h5>Garlic Chicken Pizza</h5>
+                    <p class="p2">
+                        Tender Chopped Chicken Breast, Broccoli, Basil, Oregano, Garlic Olive Oil
+                        layered over Wisconsin White Colby Cheese.
+                        <br>$14/$16/$19
+                    </p>
+                    <h5>Lobster Pizza</h5>
+                    <p class="p2">
+                        A Generous amount of Lobster Sensation, Tomatoes, Parsley, Garlic Olive Oil layered over Wisconsin White Colby Cheese. Served with Lemon Wedges.
+                        <br>$15/$19/$23
+                    </p>
+                </div>
+                <div class="inner-container div2">
+                    <img class="img2" src="images\pizza.png">
+                </div>
+                <div class="inner-container div3 grenze-gotisch-font">
+                    <h5>Pesto Pizza</h5>
+                    <p class="p2">
+                        A Generous Layer of Basil Pesto topped with Wisconsin Colby Cheese,
+                        Tomatoes, and Feta Cheese.
+                        <br>$11/$14/$17
+                    </p>
+                    <h5>Quesadilla Pizza</h5> 
+                    <p class="p2">
+                        Tender Chopped Chicken Breast, Green Peppers, Onions, Bacon and Wisconsin Cheddar Cheese layered over Wisconsin White Colby Cheese and our House- made Spicy Aioli Sauce.
+                        <br>$14/$16/$19
+                    </p>
+                    <h5>BBQ Chicken Pizza</h5>
+                    <p class="p2">
+                        Tender Chopped Chicken Breast, Banana Peppers, Sliced Red Onions, and
+                        Wisconsin White Colby Cheese layered over Tangy Barbecue Sauce, topped with Wisconsin Cheddar Cheese.
+                        <br>$14/$16/$19
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid2">
+        <!-- Custom Pizza -->
+        <div class="container2">
+            <div class="new-rocker-font redFont">
+                <h3>Build Your Own Pizza!</h3>
+            </div>
+            <div class="inner-grid">
+                <div class="inner-container div1 grenze-gotisch-font">
+                    <h5>Basic Cheese</h5>
+                    <p class="p2">
+                        Made with our Homemade Thin Crisp Crust
+                        <br>$9/$11/$13
+                        <br>
+                        <br>
+                        Add ingredients listed below to our basic cheese
+                        Sausage, Pepperoni, Ham, Smoked Bacon, Anchovies, or Feta Cheese
+                        <br>$1/$2/$3
+                    </p>
+                    <h5>Shrimp or Marinated Chicken</h5>
+                    <p class="p2">
+                        $3/$4/$5
+                        <br>
+                        <br>
+                        Spinach, Mushrooms, Broccoli, Zucchini, Pineapple, Diced Jalapenos, Black Olives, Green Olives, Tomato, Green Pepper, Onions, Chopped Garlic, or Banana Peppers
+                        <br>$1/$1/$2                        
+                    </p>
+                </div>
+                <div class="inner-container div2">
+                    <img class="img2" src="images\ingredients.png">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="grid2">
+        <!-- Appetizers -->
+        <div class="container2">
+            <div class="new-rocker-font redFont">
+                <h3>Appetizers</h3>
+            </div>
+            <div class="inner-grid">
+                <div class="inner-container div1 grenze-gotisch-font">
+                    <h5>Nachos</h5>
+                    <p class="p2">
+                        Basket of Corn Tortilla Chips with 8oz Hot Nacho Cheese
+                        <br>$4
+                    </p>
+                    <h5>Nacho Grande</h5>
+                    <p class="p2">
+                        Our delicious House-made Tostado Beef served on Corn Tortilla Chips and topped with Shredded Cheddar Cheese, Lettuce, Tomato
+                        and Black Olives. Served with a side of Hot Nacho Cheese.
+                        <br>$8
+                    </p>
+                    <h5>Fresh Baked Garlic Toast Basket</h5>
+                    <p class="p2">$3</p>
+                    <h5>House-made Ranch Dressing</h5>
+                    <p class="p2">$1</p>
+                    <h5>House-made Pizza Sauce</h5>
+                    <p class="p2">$1</p>
+                </div>
+                <div class="inner-container div2">
+                    <img class="img2" src="images\bread.png">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="grid2">
+        <!-- Sandwiches -->
+        <div class="container2">
+            <div class="new-rocker-font redFont">
+                <h3>Sandwiches</h3>
+                <h4>Served on our Hot Crusty Italian Bread with Kettle Cooked Chips and a Pickle</h4>
+            </div>
+            <div class="inner-grid">
+                <div class="inner-container div1 grenze-gotisch-font">
+                    <h5>Submarine Sandwiches<br><br></h5>
+                    <h5>Traditional</h5>
+                    <p class="p2">
+                        Cotto Salami and Bologna, Sliced Wisconsin White Colby Cheese, Tomatoes,
+                        Onions, Lettuce and Salad Dressing.
+                        8 in. $6 16 in. $12 24 in. $18
+                    </p>
+                    <h5>Three Cheese</h5>
+                    <p class="p2">
+                        Fresh Sliced Wisconsin Cheddar & White Colby, with Swiss, Tomatoes,
+                        Onions, Lettuce and Salad Dressing.
+                        8 in. $6 16 in. $12 24 in. $18
+                    </p>
+                    <h5>Specialty Sandwiches<br><br></h5>
+                    <h5>Ruben</h5>
+                    <p class="p2">
+                        Hot Corned Beef, Creamy Swiss Cheese, Zesty Dressing with Spiced
+                        Sauerkraut.
+                        <br>$7
+                    </p>
+                    <h5>Yorkshire Beef</h5>
+                    <p class="p2">
+                        Tender Roast Beef with Fresh Sliced Wisconsin Cheddar Cheese and a side of
+                        Au Jus.
+                        <br>$7
+                    </p>
+                    <h5>Rachel</h5>
+                    <p class="p2">
+                        Tender Roast Beef, Creamy Swiss Cheese and Spiced Sauerkraut.
+                        <br>$7
+                    </p>
+                    <h5>Ham & Swiss</h5>
+                    <p class="p2">
+                        Fresh Sliced Premium Lean Deli Ham, Creamy Swiss Cheese, Shredded Lettuce,
+                        and Salad Dressing.
+                        <br>$7
+                    </p>
+                    <h5>Italian Meatball</h5>
+                    <p class="p2">
+                        6 Large Savory Meatballs Stewed in an Italian Tomato Sauce, topped with
+                        Mozzarella Cheese.
+                        <br>$7        
+                    </p>
+                    <h5>Turkey Deluxe</h5>
+                    <p class="p2">
+                    Tender Sliced Whole Turkey Breast, Shredded Lettuce, Tomatoes, and Zesty
+                    Dressing.
+                    <br>$7
+                    </p>
+                </div>
+                <div class="inner-container div2">
+                    <img class="img2" src="images\sandwich.png">
+                </div>
+                <div class="inner-container div3 grenze-gotisch-font">
+                    <h5>Meatloaf</h5>
+                    <p class="p2">
+                        Homemade with Lean Ground Beef, Served Cold with Lettuce and Salad
+                        Dressing.
+                        <br>$6
+                    </p>
+                    <h5>Tuna Supreme</h5>
+                    <p class="p2">
+                        Fresh Made Salad of Celery, Onion, & Tuna with Shredded Lettuce, Tomatoes,
+                        Sliced Wisconsin Cheddar Cheese, and Zesty Dressing.
+                        <br>$7
+                    </p>
+                    <h5>Club</h5>
+                    <p class="p2">
+                        Tender Sliced Turkey Breast, Lean Ham, Wisconsin Cheddar Cheese, Tomatoes,
+                        Lettuce and Salad Dressing.
+                        <br>$7
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="grid2">
+        <!-- Salads -->
+        <div class="container2">
+            <div class="new-rocker-font redFont">
+                <h3>Salads</h3>
+            </div>
+            <div class="inner-grid">
+                <div class="inner-container div1 grenze-gotisch-font">
+                    <p class="p2">
+                        Salads can be made with fresh Baby Spinach or Fresh Cut Romaine Lettuce for an additional $2
+                    </p>
+                    <h5>House Dressings:</h5>
+                    <p class="p2">
+                        Homemade Ranch, Homemade French, Homemade Italian, Caesar, Blue Cheese, Thousand Island, Balsamic Vinegar, Red Wine Vinegar & Oil, and Fat Free Raspberry Vinaigrette.
+                    </p>
+                    <h5>House Salad</h5>
+                    <p class="p2">
+                        Fresh Cut Iceberg Lettuce, Tomatoes, Onions, Wisconsin Cheddar Cheese and Croutons.
+                        <br>$4
+                    </p>
+                    <h5>Side Caesar Salad</h5>
+                    <p class="p2">
+                        Freshly Chopped Romaine Lettuce, Croutons, Onions, & Tomatoes topped with Shredded Parmesan Cheese & Caesar Dressing.
+                        <br>$5
+                    </p>
+                    <h5>Chef’s Salad</h5>
+                    <p class="p2">
+                        Fresh Cut Iceberg Lettuce, Lean Premium Deli Ham, Tender Sliced Whole Turkey, Tomatoes, Onions, Hard-boiled Egg, & Wisconsin Cheddar Cheese. Served with Fresh Baked Garlic Toast & Choice of Dressing.
+                        <br>$8
+                    </p>
+                    <h5>Garden Salad (Vegetarian)</h5>
+                    <p class="p2">
+                        Fresh Cut Iceberg Lettuce, Tomatoes, Onions, Green Pepper, Black Olives, Hard-boiled Egg, and Wisconsin Cheddar Cheese. Served with Fresh Baked Garlic Toast and Choice of Dressing.
+                        <br>$7
+                    </p>
+                </div>
+                <div class="inner-container div2">
+                    <img class="img2" src="images\salad.png">
+                </div>
+                <div class="inner-container div3 grenze-gotisch-font">
+                    <h5>Taco Salad</h5>
+                    <p class="p2">
+                        Fresh Cut Iceberg Lettuce topped with our specialty House made Tostada Beef, Wisconsin Cheddar Cheese, Tomatoes, Black Olives and Corn Chips. Served with Tostada Hot Sauce, Sour Cream and Salsa.
+                        <br>$8
+                    </p>
+                    <h5>Italian Beef Vinaigrette</h5>
+                    <p class="p2">
+                        Fresh Cut Iceberg Lettuce with Thinly Shaved Tender Roast Beef, Italian Green Beans, Onions, Tomatoes and Black Olives. Served with Fresh Baked Garlic Toast and Italian Dressing.
+                        <br>$8
+                    </p>
+                    <h5>Greek Salad</h5>
+                    <p class="p2">
+                        Fresh Cut Iceberg Lettuce with  Onions, Tomatoes, Black Olives, Green Peppers, Marinated Cucumbers and Crumbled Feta Cheese. Served with Fresh Baked Garlic Toast and Italian Dressing.
+                        <br>$8
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="grid2">
+        <!-- Drinks -->
+        <div class="container2">
+            <div class="new-rocker-font redFont">
+                <h3>Drinks</h3>
+            </div>
+            <div class="inner-grid">
+                <div class="inner-container div1 grenze-gotisch-font">
+                    <h4 class="new-rocker-font redFont">Specialty Cocktails</h4>
+                    <h5>Pina Colada (Blended)</h5>
+                    <p class="p2">
+                        Rum, Pineapple Juice and Coconut Cream
+                        <br>$8
+                    </p>
+                    <h5>Scorpion</h5>
+                    <p class="p2">
+                        Exotic Blend of Pineapple and Orange Juice, Gin, Rum and Creme de Almond
+                        <br>$8
+                    </p>
+                    <h5>Long Island</h5>
+                    <p class="p2">
+                        Whiskey, Rum, Vodka, Triple Sec, Lemon Juice and Coke
+                        <br>$8
+                    </p>
+                    <h5>Purple Rain</h5>
+                    <p class="p2">
+                        Creme de Almond, Blue Curacao, Rum, Lime Juice and Squirt.
+                        <br>$8
+                    </p>
+                    <h5>Ocean Breeze</h5>
+                    <p class="p2">
+                        Rum, Vodka, Triple Sec, Cranberry Juice and Orange Juice.
+                        <br>$8
+                    </p>
+                    <h5>Zombie</h5>
+                    <p class="p2">
+                        Rum, Apricot Brandy, Pineapple Juice
+                        <br>$8
+                    </p>
+                    <h5>Maitai</h5>
+                    <p class="p2">
+                        Tropical Blend of Rum, Triple Sec, Sugar and Pineapple Juice.
+                        <br>$8
+                    </p>
+                    <h5>Raspberry Lemonade</h5>
+                    <p class="p2">
+                        Whiskey, Triple Sec, Raspberry Schnapps, Sprite and Lemon Juice.
+                        <br>$8
+                    </p>
+                    <h5>Vacation?</h5>
+                    <p class="p2">
+                        Whiskey, Peach Schnapps, Pineapple Juice, and Squirt
+                        <br>$8
+                    </p>
+                    <h5>Sweet Tart</h5>
+                    <p class="p2">
+                        Vodka, Blue Curacao, Raspberry Schnapps, Triple Sec, Cranberry Juice, Sprite and Squirt.
+                        <br>$8
+                    </p>
+                    <h5>Strawberry Daiquiri (Blended)</h5>
+                    <p class="p2">
+                        Strawberries blended with Rum and Lemon Juice
+                        <br>$8
+                    </p>
+                </div>
+                <div class="inner-container div2 ">
+                    <img class="img2" src="images\drink.png">
+                </div>
+                <div class="inner-container div3 grenze-gotisch-font">
+                    <h4 class="new-rocker-font redFont"><br>Beer, Wine, & Selzer</h4>
+                    <p class="p2">
+                        Miller Lite
+                        <br>Miller High Life
+                        <br>Old Milwaukee
+                        <br>$4
+                        <br>
+                        <br>White Claw
+                        <br>Truly
+                        <br>New Glarus (rotating choice, please ask your server)
+                        <br>$5
+                        <br>
+                        <br>Cabarnet Sauvignon
+                        <br>Sauvignon Blanc
+                        <br>Pinot Grigio
+                        <br>Pinot Noir
+                        <br>$6
+                    </p>
+                    <h4 class="new-rocker-font redFont"><br><br>Soft Drinks</h4>
+                    <p class="p2">
+                        Coke, Diet Coke, Sprite, Root Beer, Orange Juice, Cranberry Juice
+                        <br>$2
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer section -->
+    <div id="contact"><p><br></p></div>
+    <h4 class="new-rocker-font">THE PIZZA PLACE HOURS AND OTHER INFORMATION</h4>
+    <div class="yellowBox">
+        <div class="grid4">
+            <div class="container4 grenze-gotisch-font redFont">
+                <p class="pirata-one-font p3 marginTop">
+                    HOURS:
+                </p>
+                <p class="p3">
+                    Monday- Thursday 11am - 9 pm
+                    <br>Friday & Saturday 11am - 9 pm
+                    <br>Sunday 4 pm - 9 pm
+                </p>
+                <p class="pirata-one-font p3 marginTop">
+                    PHONE:
+                </p>
+                <p class="p3">
+                    (262) 555-1234
+                </p>
+                <p class="pirata-one-font p3 marginTop">
+                    ADDRESS:
+                </p>
+                <p class="p3">
+                    625 52nd St., Kenosha, WI 53140
+                </p>
+                <p class="pirata-one-font p3 marginTop">
+                    <u><a href="#top">BACK TO TOP</a></u>
+                </p>
+            </div>
+            <div class="container4">
+                <img class="img3" src="images\yellow_castle.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
